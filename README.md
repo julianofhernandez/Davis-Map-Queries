@@ -1,2 +1,2 @@
 # Davis-Map-Queries
-Queries for OpenStreetMap's API (https://overpass-turbo.eu/) for areas in Davis andy on the UC Davis campus.
+This repository is for holding API calls to [Overpass](https://overpass-turbo.eu/) which queries [OpenStreetMap](https://www.openstreetmap.org/). The folders length/ and maps/ hold equivilent queries but maps returns a visual outline, while length returns a summed total length of these maps, in meters. To run either of these calls go to [Overpass](https://overpass-turbo.eu/) and paste them into the dialogue box, then press "Run". For the maps, it may not reorient the view to Davis, CA and you may have to do this manually.
