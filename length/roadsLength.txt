@@ -1,15 +1,12 @@
-//[out:csv(length,value)];
+[out:csv(length,value)];
 area(3605267472);
 way[highway~"(secondary|tertiary|unclassified|residential)"][service!="parking_aisle"](area);	
-(._;>;);
-out;
 
-/*
 for (t["highway"])
 {
   make stat value=_.val,length=sum(length());
   out;
 }
-*/
+
 
 
